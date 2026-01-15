@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 30px;
+  background-color: white;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.profile-img {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.content-list {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+}
